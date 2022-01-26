@@ -1,0 +1,67 @@
+#charity-container {
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px black;
+    text-align: center;
+}
+
+#charities {
+    margin-top: 20px;
+}
+
+.charity {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+}
+
+#charities > div {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background: #b86f50;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+#charities > div > .button {
+    display: flex;
+    margin-top: 16px;
+    width: 111px;
+}
+
+#charities > div > .message {
+    font-size: 14px;
+    display: flex;
+}
+
+#donate-description {
+    display: block;
+    font-size: 13px;
+    margin-top: 16px;
+}
+
+.charity-description {
+    font-size: 12px;
+    text-align: start;
+    padding: 7px;
+}
+
+.charity-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.charity-buttons  > .button {
+    font-size: 12px;
+}
+
+.total-donated {
+    font-size: 12px;
+    text-align: start;
+    padding: 10px;
+    width: fit-content;
+    cursor: pointer;
+}

@@ -48,10 +48,13 @@ export const Charity: React.FC<Props> = ({ onSelect }) => {
         <Panel>
             <div id="charity-container">
                 <span>
-                    Donate to play.
+                    Donate to play
                 </span>
                 <span id="donate-description">
-                    To start a farm, please donate $0.05 BNB.
+                    To start a farm, please donate
+                </span>
+                <span id="donate-description">
+                    0.05 $BNB.
                 </span>
                 <div id="charities">
                     <div>
@@ -61,24 +64,7 @@ export const Charity: React.FC<Props> = ({ onSelect }) => {
                         <span className='charity-description'>
                             You can provide liquidity.
                         </span>
-                        <OverlayTrigger
-                            key='water'
-                            overlay={(props) => (
-                                <Tooltip id='tooltip-water' {...props}>
-                                    {Charities.TheWaterProject}
-                                </Tooltip>
-                            )}
-                            >
-                            <span className='total-donated'>
-                                {balances.waterBalance && `$${balances.waterBalance} donated`}
-                            </span>
-                        </OverlayTrigger>
-
                         <div className='charity-buttons'>
-                            <Button onClick={() => window.open('https://thewaterproject.org/donate-ethereum')}>
-                                About
-                                <img src={questionMark} id="question"/>
-                            </Button>
                             <Button  onClick={() => onSelect(Charities.TheWaterProject)} >
                                 Donate & Play
                             </Button>
@@ -89,25 +75,9 @@ export const Charity: React.FC<Props> = ({ onSelect }) => {
                             Marketing
                         </div>
                         <span className='charity-description'>
-                            We can invest more in marketing.
-                        </span>
-                        <OverlayTrigger
-                            key='water'
-                            overlay={(props) => (
-                                <Tooltip id='tooltip-water' {...props}>
-                                    {Charities.Heifer}
-                                </Tooltip>
-                            )}
-                            >
-                            <span className='total-donated'>
-                                {balances.heiferBalance && `$${balances.heiferBalance} donated`}
-                            </span>
-                        </OverlayTrigger>
+                            We can bring more farmers.
+                        </span>                        
                         <div className='charity-buttons'>
-                            <Button onClick={() => window.open('https://www.heifer.org/give/other/digital-currency.html')}>
-                                About
-                                <img src={questionMark} id="question"/>
-                            </Button>
                             <Button  onClick={() => onSelect(Charities.Heifer)} >
                                 Donate & Play
                             </Button>
@@ -118,25 +88,9 @@ export const Charity: React.FC<Props> = ({ onSelect }) => {
                             Treasury
                         </div>
                         <span className='charity-description'>
-                            You can provide $DFF tokens to holder farmers.
+                            You can provide $DFF tokens to farmers.
                         </span>
-                        <OverlayTrigger
-                            key='water'
-                            overlay={(props) => (
-                                <Tooltip id='tooltip-water' {...props}>
-                                    {Charities.CoolEarth}
-                                </Tooltip>
-                            )}
-                            >
-                            <span className='total-donated'>
-                                {balances.coolEarthBalance && `$${balances.coolEarthBalance} donated`}
-                            </span>
-                        </OverlayTrigger>
                         <div className='charity-buttons'>
-                            <Button onClick={() => window.open('https://www.coolearth.org/cryptocurrency-donations/')}>
-                                About
-                                <img src={questionMark} id="question"/>
-                            </Button>
                             <Button  onClick={() => onSelect(Charities.CoolEarth)} >
                                 Donate & Play
                             </Button>

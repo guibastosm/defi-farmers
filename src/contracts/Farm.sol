@@ -44,9 +44,9 @@ contract Farm {
             // The Water Project - double check
             _charity == address(0x276cA95DBbB0F1bEb6919317AB03c885FC10ee6E)
             // Heifer
-            || _charity == address(0xD3F81260a44A1df7A7269CF66Abd9c7e4f8CdcD1)
+            || _charity == address(0xAF88d965068501ed94cF83A16fCf8e97f85279e4)
             // Cool Earth
-            || _charity == address(0x3c8cB169281196737c493AfFA8F49a9d823bB9c5),
+            || _charity == address(0x69f72C0B39844C7819b88b80A05E18aCf3F927Df),
             "INVALID_CHARITY"
         );
 

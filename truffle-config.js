@@ -22,7 +22,7 @@ module.exports = {
       confirmations: 10,
       timeoutBlocks: 200,
       skipDryRun: true
-    }   
+    }
   },
 
   contracts_directory: './src/contracts/',

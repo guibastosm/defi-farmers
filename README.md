@@ -2,7 +2,7 @@
 
 A blockchain based game where players can play to earn Defi Farmer Tokens.
 
-You can play the game here: https://www.sunflower-farmers.com/
+You can play the game here: https://defi-farmers.netlify.app/
 
 # How does it work?
 

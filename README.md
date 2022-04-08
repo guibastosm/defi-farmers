@@ -1,12 +1,12 @@
-# Sunflower Farmer
+# Defi Farmers
 
-A blockchain based game where players can play to earn Sunflower Farmer Tokens.
+A blockchain based game where players can play to earn Defi Farmer Tokens.
 
 You can play the game here: https://www.sunflower-farmers.com/
 
 # How does it work?
 
-For more details, please see the guide - https://adamhannigan81.gitbook.io/sunflower-farmers/
+For more details, please see the guide - https://app.gitbook.com/o/UKPVsrFeJt51SgRiVqrb/s/F27DFkWXAxczEKpNMnyR/
 
 # Code Structure
 

@@ -16,7 +16,7 @@ Decentralized App (Dapp) can be found in `src/dapp`.
 
 # How to run?
 
-The dapp is currently pointed at the production blockchain. You can switch to Binance Smart Chain Testnet and it should pick up the chainID automatically.
+The dapp is currently pointed at the Binance Smart Chain Testnet.
 
 `yarn`
 `yarn start`
